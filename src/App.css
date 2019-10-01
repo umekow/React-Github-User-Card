@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  font-size: 62.5%; 
+ border-radius: 15px; 
+ background:white; 
 }
 
 .App-logo {
@@ -19,4 +22,47 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.card{
+  display:flex;
+  justify-content: space-around; 
+  align-content: center; 
+  width:75%;
+  padding: 2.5%; 
+  margin: 2.5% auto;
+  background:white; 
+  align-items:center;
+  border-radius: 10px; 
+
+}
+.img-container{
+  width:25%; 
+}
+
+.card .user-photo{
+  border-radius: 50%; 
+  width: 100%; 
+  border: 4px solid #3666d6;
+}
+
+
+.username{
+  font-size: 2rem; 
+  font-weight: bold;
+  text-align: center;  
+
+}
+
+.subtitle{
+  font-size: 1.2rem; 
+  font-weight:bold; 
+
+}
+
+.follow-info{
+  display:flex; 
+  align-items:center; 
+  justify-content: space-around;
+
 }
